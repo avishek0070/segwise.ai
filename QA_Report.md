@@ -61,6 +61,34 @@
 
 
 
+# 5. “v” vs. “vs.” inconsistency
+<img width="947" alt="Screenshot 2025-07-09 at 10 04 46" src="https://github.com/user-attachments/assets/c70d1890-f09b-4c81-8e06-d53746cf8d5b" />
+
+
+
+1. **Issue:** The report selector uses a lone “v” (“Previous 7 Days v 15 Oct”) instead of the more familiar “vs.” used elsewhere.
+2. **Impact:** Users must pause to decode “v” as “versus,” disrupting quick comprehension of the comparison.
+3. **Recommendation:** Standardize on a single separator (e.g., always use “vs.”) across all date-range and metric comparisons.
+
+# 6. Overly verbose campaign explanation cards
+<img width="1411" alt="Screenshot 2025-07-09 at 10 10 12" src="https://github.com/user-attachments/assets/90ac8be3-5394-43fc-86a8-fcfe56c7ffcf" />
+
+
+1. **Issue:** Each campaign row’s narrative is a long, run-on sentence with nested parentheses and mixed highlight colors.
+2. **Impact:** Forces users to read slowly and mentally unpack the structure rather than scanning for key drivers.
+3. **Recommendation:** Simplify into a consistent bullet-template (e.g., “Spends ↑60.23%, D7 ROAS ↓40.44%, key driver: D7 Retention −17.03%”).
+
+
+# 7. Misplaced “Show Chart” toggle
+
+<img width="663" alt="Screenshot 2025-07-09 at 10 18 22" src="https://github.com/user-attachments/assets/e7716541-1388-40a6-b8f2-1945a2a90059" />
+
+**Top 5 Top 10 Custom**
+
+1. **Issue:** The “Show Chart” toggle is located in the table controls area (below the graph) but actually shows/hides the **chart** above.
+2. **Impact:** Users expect that toggles placed near a UI element will control that element. Placing a chart toggle next to table controls breaks that expectation and makes it hard to discover how to hide the graph.
+3. **Recommendation:** Move the “Show Chart” toggle next to the graph’s header or change its label to “Hide Chart” when the chart is visible, ensuring placement and labeling match the controlled element.
+
 
 ## 3. Automation Task (Basic)
 
