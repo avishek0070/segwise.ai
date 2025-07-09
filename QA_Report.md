@@ -57,3 +57,13 @@
 
   * Insert a vertical “break” indicator (zig-zag or dashed line).
   * Label each segment ("Primary: Dec 5–17" vs. "Compare: Dec 19–31").
+
+
+
+
+
+## 3. Automation Task (Basic)
+
+https://drive.google.com/file/d/1zVe-lSWRpLQ-CoYKGDSpCOjA9dcKD7iC/view?usp=sharing
+
+code-link:https://github.com/avishek0070/segwise.ai/blob/main/SeigwiseAutomation.py
