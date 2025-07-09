@@ -89,9 +89,22 @@
 2. **Impact:** Users expect that toggles placed near a UI element will control that element. Placing a chart toggle next to table controls breaks that expectation and makes it hard to discover how to hide the graph.
 3. **Recommendation:** Move the “Show Chart” toggle next to the graph’s header or change its label to “Hide Chart” when the chart is visible, ensuring placement and labeling match the controlled element.
 
-## 2.Regression Checklist
-Filters & Boards:(https://github.com/avishek0070/segwise.ai/blob/main/RegressionFiltersAndBoards.md)
-Custom reports:
+## 2. Regression Checklist
+
+Below are the two core regression checklists you can reference for exhaustive testing of the dashboard’s Filters & Boards and Custom Reports functionality:
+
+---
+
+### 📑 Filters & Boards  
+**Description:** Covers all interactions with the Filters panel, data granularity, chart/table toggles, and empty-state handling.  
+🔗 [View the full checklist → RegressionFiltersAndBoards.md](https://github.com/avishek0070/segwise.ai/blob/main/RegressionFiltersAndBoards.md)
+
+---
+
+### 📊 Custom Reports  
+**Description:** Validates static vs. rolling date ranges, compare-to-period overlays, AND/OR filter logic, and empty-state messaging in custom report views.  
+🔗 [View the full checklist → RegressionCustomReports.md](https://github.com/avishek0070/segwise.ai/blob/main/RegressionCustomReports.md)
+
 ## 3. Automation Task (Basic)
 
 https://drive.google.com/file/d/1zVe-lSWRpLQ-CoYKGDSpCOjA9dcKD7iC/view?usp=sharing
